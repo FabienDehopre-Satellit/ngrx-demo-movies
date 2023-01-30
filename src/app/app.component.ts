@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   standalone: true,
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'ngrx-demo';

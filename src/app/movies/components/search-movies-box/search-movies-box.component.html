@@ -5,7 +5,7 @@
   <mat-card-content>
     <mat-form-field class="form-field">
       <mat-label>Search for a movie</mat-label>
-      <input matInput [(ngModel)]="value">
+      <input matInput [(ngModel)]="value" (keyup.enter)="search.emit(value)">
       <button *ngIf="value" matSuffix mat-icon-button aria-label="Clear" (click)="value=''">
         <mat-icon>close</mat-icon>
       </button>

@@ -14,4 +14,8 @@ export class MoviesService {
 
     return this.http.get<Movie[]>('http://localhost:3000/movies', { params });
   }
+
+  markAsFavorite(movie: Movie): Observable<Movie> {
+    return this.http.patch<Movie>(`http://localhost:3000/movies/${movie.id}`, { favorite: true });
+  }
 }

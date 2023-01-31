@@ -3,18 +3,14 @@ mat-card {
 
   mat-card-header,
   mat-card-actions {
-    justify-content: center;
+    @apply justify-center;
   }
 
   mat-card-content {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
+    @apply flex justify-center mt-4;
   }
 }
 
 .form-field {
-  min-width: 250px;
-  max-width: 500px;
-  width: 100%;
+  @apply w-full min-w-[250px] max-w-[500px];
 }

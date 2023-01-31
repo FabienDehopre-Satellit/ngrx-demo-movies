@@ -7,7 +7,6 @@ import {NgForOf} from "@angular/common";
   standalone: true,
   selector: 'app-movies-list',
   templateUrl: './movies-list.component.html',
-  styleUrls: ['./movies-list.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
     MoviesListItemComponent,

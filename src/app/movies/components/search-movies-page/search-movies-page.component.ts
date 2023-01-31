@@ -8,7 +8,6 @@ import {MoviesListComponent} from "../movies-list/movies-list.component";
   standalone: true,
   selector: 'app-search-movies-page',
   templateUrl: './search-movies-page.component.html',
-  styleUrls: ['./search-movies-page.component.scss'],
   imports: [
     SearchMoviesBoxComponent,
     MoviesListComponent

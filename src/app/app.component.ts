@@ -7,7 +7,6 @@ import {RouterOutlet} from "@angular/router";
   standalone: true,
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
     imports: [
         MatToolbarModule,
         SearchMoviesBoxComponent,

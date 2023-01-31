@@ -1,0 +1,7 @@
+<div class="container">
+  <app-movies-list-item
+    *ngFor="let movie of movies"
+    [movie]="movie"
+    (favorite)="favoriteMovie.emit($event)"
+  />
+</div>

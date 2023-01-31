@@ -16,4 +16,6 @@ import {NgForOf} from "@angular/common";
 export class MoviesListComponent {
   @Input() movies: Movie[] = [];
   @Output() readonly favoriteMovie = new EventEmitter<Movie>();
+
+  readonly movieTrackBy = (index: number, movie: Movie) => movie.id;
 }
